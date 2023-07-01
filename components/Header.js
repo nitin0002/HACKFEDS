@@ -26,7 +26,10 @@ const Header = () => {
         </h1>
       </div>
 
-      <nav>
+      <nav
+       style={{
+        zIndex: "1",
+       }}>
         <div className="absolute right-6 md:hidden top-6 scale-150">
           <CiMenuBurger
             onClick={showMenu}
