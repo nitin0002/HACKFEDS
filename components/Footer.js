@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className=" text-center text-white bg-gradient-to-t from-black/80 via-black/70 to-indigo-900 backdrop-filter backdrop-blur-xs ">
-      <div className="container pt-9">
+      <div className=" pt-9">
         <div className="mb-9 flex justify-center mt-32">
           <a href="#!" className="mr-9 text-neutral-800 dark:text-neutral-200">
             <svg
