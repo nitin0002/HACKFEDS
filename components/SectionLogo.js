@@ -19,12 +19,12 @@ const SectionLogo = () => {
       </h3>
       <div className="flex flex-row space-x-4 mt-8 ">
         <a href="https://discord.gg/Rw97jUCn6k" target="_blank">
-    <button class=" flex py-2 px-4 bg-[#69137c] text-white font-semibold rounded-lg shadow-md hover:bg-[#500e5f] focus:outline-none focus:ring-2 focus:ring-[#8814a1] focus:ring-opacity-75">
+    <button className=" flex py-2 px-4 bg-[#6666F2] text-white font-semibold rounded-lg shadow-md hover:bg-[#500e5f] focus:outline-none focus:ring-2 focus:ring-[#8814a1] focus:ring-opacity-75">
    <FaDiscord className="h-12 w-12"/> 
    <span className="py-2 px-4 text-xl">Join Discord</span>
   </button>
    </a>
-  <button class=" flex py-2 px-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold rounded-lg shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-ring-[#8814a1] focus:ring-opacity-20">
+  <button className=" flex py-2 px-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold rounded-lg shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-ring-[#8814a1] focus:ring-opacity-20">
   <SiSololearn className="h-12 w-12"/> 
   <span className="py-2 px-4 text-xl">Register for Hackfed 1.0</span>
 </button>
