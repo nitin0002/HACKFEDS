@@ -3,7 +3,7 @@ import { SiSololearn } from "react-icons/si";
 
 const SectionLogo = () => {
   return (
-    <div className="flex flex-col md:flex items-center justify-center h-screen ">
+    <div className="flex flex-col md:flex items-center justify-center h-screen">
       <h1 className="text-3xl font-semibold tracking-tight font-sans text-slate-200 mb-3 ">
         Inspire. Educate. Empower
       </h1>
