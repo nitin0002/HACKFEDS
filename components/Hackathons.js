@@ -1,6 +1,6 @@
 const Hackathons = () => {
   return (
-    <div className="flex flex-wrap justify-center bg-gradient-to-t from-gray-800 via-gray-800 to-indigo-950">
+    <div className="flex flex-wrap justify-center bg-gradient-to-t from-gray-800 via-gray-800 to-indigo-950 ">
       <div className="flex justify-center w-full mt-48">
         <h1 className="text-6xl font-bold antialiased underline underline-offset-20 decoration-indigo-500 ">Hackathons</h1>
       </div>

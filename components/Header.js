@@ -18,7 +18,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="fixed w-full text-white flex justify-between p-4 items-center">
+    <div className="fixed w-full text-white flex justify-between p-4 items-center z-10">
       <div className="text-2xl font-bold text-center uppercase">
         <h1>
           {" "}
@@ -26,10 +26,7 @@ const Header = () => {
         </h1>
       </div>
 
-      <nav
-       style={{
-        zIndex: "1",
-       }}>
+      <nav className="">
         <div className="absolute right-6 md:hidden top-6 scale-150">
           <CiMenuBurger
             onClick={showMenu}
