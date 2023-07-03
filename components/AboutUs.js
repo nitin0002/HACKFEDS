@@ -9,7 +9,7 @@ const AboutUs = () => {
         className="md:w-2/4 object-cover rounded-xl p-5 ml-28  bg-opacity-50"
       />
 
-      <div className="text-xl font-medium antialiased space-y-4 -ml-20 mr-20 ">
+      <div className="text-xl text-white font-medium antialiased space-y-4 -ml-20 mr-20 ">
         <h1 className="text-5xl font-bold antialiased ">
           About Us
         </h1>
