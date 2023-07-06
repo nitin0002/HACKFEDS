@@ -6,10 +6,10 @@ const AboutUs = () => {
     <div className="grid md:grid-cols-2 justify-items-stretch h-min md:h-min bg-gradient-to-b from-transparent via-black to-indigo-950">
       <img
         src="/About.jpg"
-        className="md:w-2/4 object-cover rounded-xl p-5 ml-28  bg-opacity-50"
+        className="md:w-2/4 object-cover rounded-xl p-5 mx-10 md:ml-28  bg-opacity-50"
       />
 
-      <div className="text-xl text-white font-medium antialiased space-y-4 -ml-20 mr-20 ">
+      <div className="text-xl text-white font-medium antialiased space-y-4 m-4 md:-ml-20 md:mr-20 ">
         <h1 className="text-5xl font-bold antialiased ">
           About Us
         </h1>
