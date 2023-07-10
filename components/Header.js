@@ -3,6 +3,7 @@ import Link from "next/link";
 import MenuItems from "./MenuItems";
 import { useState } from "react";
 
+
 const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -21,13 +22,14 @@ const Header = () => {
     <div className="fixed w-full text-white flex justify-between p-4 items-center z-10">
       <div className="text-2xl font-bold text-center uppercase">
         <h1>
-          {" "}
-          <span className="block text-4xl backdrop-filter backdrop-blur-sm bg-white/20 rounded-md p-4 ">HACKFED</span>
+          <span className="block text-2xl sm:hidden tracking-wider backdrop-filter backdrop-blur-sm bg-white/20 rounded-md px-4 py-3 ">
+            HACKFED
+          </span>
         </h1>
       </div>
 
       <nav className="">
-        <div className="absolute right-6 md:hidden top-6 scale-150">
+        <div className="absolute right-6 md:hidden top-10 scale-150">
           <CiMenuBurger
             onClick={showMenu}
             className="scale-150 cursor-pointer"

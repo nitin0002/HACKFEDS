@@ -12,6 +12,11 @@
   width: 8rem;
 }
 
+/* @media (max-width: 750px) {
+  .hidden {
+    display: none !important;
+  }
+} */
 
 
 /* :root {
