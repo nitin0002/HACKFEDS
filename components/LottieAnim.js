@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+import lottie from "Lottie-web";
 import programmer from "../public/programmer.json";
 
 const LottieAnimation = () => {
