@@ -41,14 +41,14 @@ const Hackathon_1 = () => {
         </p>
         <div className="flex flex-row flex-wrap items-center justify-center ">
           <p className="basis-3/5 p-5 text-xl font-medium tracking-wider antialiased bg-black/40 py-16  rounded-lg leading-8 ">
-            <hr className="styled-hr-hack" />
+            {/* <hr className="styled-hr-hack" /> */}
             Build your dream project in this hackathon . We provides the tools
             and services frontend and full-stack developers need to easily
             build, deploy, and host feature-rich, full-stack applications,
             leveraging the power of data. No deep cloud expertise needed. By
             registering to this hackathon you are giving permision to Hackfed to
             send you Hackathon details over email.
-            <hr className="styled-hr-hack-end" />
+            {/* <hr className="styled-hr-hack-end" /> */}
           </p>
 
           <LottieAnimation />
