@@ -14,12 +14,12 @@ const Header = () => {
     { label: "About Us", url: "#", Number: "01 " },
     { label: "Sponsor Us", url: "#", Number: "02 " },
     { label: "Meetups", url: "#", Number: "03 " },
-    { label: "Hackathons", url: "#", Number: "04 " },
+    { label: "Hackathons", url: "/hackathons", Number: "04 " },
     { label: "Team", url: "#", Number: "05 " },
   ];
 
   return (
-    <div className="fixed w-full text-white flex justify-between p-4 items-center z-10">
+    <div className="static w-full text-white flex justify-between p-4 items-center z-10">
       <div className="text-2xl font-bold text-center uppercase">
         <h1>
           <span className="block text-2xl sm:hidden tracking-wider backdrop-filter backdrop-blur-sm bg-white/20 rounded-md px-4 py-3 ">

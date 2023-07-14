@@ -76,7 +76,7 @@ const AboutUs = () => {
             </svg>
             <span>
               Diversity: We believe in embracing{" "}
-              <span class="highlight highlight--white">
+              <span className="highlight highlight--white">
                 people of all backgrounds and cultures{" "}
               </span>
               and striving for inclusive practices in our community.

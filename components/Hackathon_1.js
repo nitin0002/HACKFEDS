@@ -30,7 +30,7 @@ const Hackathon_1 = () => {
       <Background />
       <Header />
 
-      <div className="flex flex-wrap flex-col items-center justify-center bg-white/20  backdrop-filter backdrop-blur-sm rounded-lg">
+      <div className="flex flex-wrap flex-col items-center justify-center bg-white/20  backdrop-filter backdrop-blur-sm rounded-lg ">
         <p
           className="text-3xl font-bold  font-RussoOne tracking-wider mb-4 text-white/75 mt-5  xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl"
           style={{
