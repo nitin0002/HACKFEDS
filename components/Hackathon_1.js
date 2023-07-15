@@ -71,10 +71,13 @@ const Hackathon_1 = () => {
         <WinnerFemale />
       </div>
 
-      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg divide-y-8 divide-black">
+      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg ">
+        
         <div className="bg-black/20 mx-5 sm:mx-32 rounded-xl backdrop-filter backdrop-blur-sm my-10 ">
           <PlatinumSponsors />
         </div>
+        <hr className="styled-hr-sponsors" />
+
         <div className="bg-black/20 mx-5 sm:mx-96  rounded-xl backdrop-filter backdrop-blur-sm">
           <GoldSponsors />
         </div>
