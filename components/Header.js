@@ -19,7 +19,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="static w-full text-white flex justify-between p-4 items-center z-10">
+    <div className="fixed w-full text-white flex justify-between p-4 items-center z-10">
       <div className="text-2xl font-bold text-center uppercase">
         <h1>
           <span className="block text-2xl sm:hidden tracking-wider backdrop-filter backdrop-blur-sm bg-white/20 rounded-md px-4 py-3 ">
