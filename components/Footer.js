@@ -72,7 +72,7 @@ const Footer = () => {
 
       <div className=" p-4 text-center text-neutral-700  dark:text-neutral-200">
         © 2023 Copyright : 
-        <a className="text-neutral-800 dark:text-neutral-400" href="#">
+        <a className="text-neutral-100 dark:text-neutral-200 pl-1" href="#">
           HackFeds
         </a>
       </div>
