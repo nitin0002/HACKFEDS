@@ -29,7 +29,7 @@ const Hackathon_1 = () => {
   }, []);
 
   return (
-    <>
+    <> 
       <Background />
       <Header />
 
