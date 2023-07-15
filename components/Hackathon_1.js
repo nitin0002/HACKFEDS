@@ -76,10 +76,6 @@ const Hackathon_1 = () => {
 
       <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg divide-y-8 divide-black">
         <PlatinumSponsors />
-<<<<<<< HEAD
-        {/* <hr className="styled-hr-sponsors" /> */}
-=======
->>>>>>> 2d656a1f59c29a33bd01f2a559bd36e871797d79
         <GoldSponsors />
       </div>
       <div className="mx-4 mt-5 pb-5 rounded-xl">
