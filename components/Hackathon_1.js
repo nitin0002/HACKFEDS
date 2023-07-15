@@ -8,6 +8,7 @@ import GoldSponsors from "./GoldSponsors";
 import Footer from "./Footer";
 import WinnerMale from "./WinnerMale";
 import WinnerFemale from "./WinnerFemale";
+import Link from "next/link";
 
 const Hackathon_1 = () => {
   const [shadowOffset, setShadowOffset] = useState(0);
@@ -16,7 +17,7 @@ const Hackathon_1 = () => {
     const handleMouseMove = (e) => {
       const mouseX = e.clientX;
       const containerWidth = window.innerWidth;
-      const offset = (mouseX / containerWidth) * 20 - 10; // Adjust the offset range as needed
+      const offset = (mouseX / containerWidth) * 20 - 10;
       setShadowOffset(offset);
     };
 
@@ -37,15 +38,15 @@ const Hackathon_1 = () => {
 
       <div className="flex flex-col items-center justify-center min-h-screen  rounded-lg space-y-10 ">
         <p
-          className="text-3xl font-bold  font-RussoOne tracking-wider mb-10 text-white/75 mt-5 lg:pt-60  xl:text-8xl lg:text-6xl md:text-5xl sm:text-4xl"
+          className="text-4xl font-bold  font-RussoOne tracking-wider mb-10 text-white/75 pt-40 sm:pt-40 mt-5 lg:pt-60  xl:text-8xl lg:text-6xl md:text-5xl sm:text-4xl"
           style={{
             textShadow: `${shadowOffset}px -1px 0px rgba(109, 95, 187, 1)`,
           }}
         >
           {"<"} HACKATHON 1.0 {"/>"}
         </p>
-        <div className="flex flex-col md:flex-row items-center justify-center -mb-20 bg-white/20 backdrop-filter backdrop-blur-sm mx-16  rounded-2xl lg:divide-x-4 divide-black">
-          <p className="w-3/5 px-1 text-xl font-medium tracking-wider antialiased py-16  rounded-lg leading-8 ">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-white/10 backdrop-filter backdrop-blur-md mx-4  rounded-2xl lg:divide-x-4 divide-black ">
+          <p className="md:w-3/5 px-1 sm:mx-5 mx-5 text-xl font-medium tracking-wider antialiased py-16  rounded-lg leading-8 ">
             <hr className="styled-hr-hack" />
             Build your dream project in this hackathon . We provides the tools
             and services frontend and full-stack developers need to easily
@@ -54,26 +55,36 @@ const Hackathon_1 = () => {
             registering to this hackathon you are giving permision to Hackfed to
             send you Hackathon details over email.
             <hr className="styled-hr-hack-end" />
+            <button
+              type="button"
+              className="py-2 px-4 mt-5  text-white rounded-xl font-semibold  bg-gradient-to-r from-indigo-600 to-blue-500 hover:from-indigo-700  hover:to-indigo-500 active:bg-indigo-700 "
+            >
+              <Link href="#">Register Now</Link>
+            </button>
           </p>
 
           <LottieAnimation />
         </div>
       </div>
-      <div className="flex flex-wrap flex-col items-center justify-center bg-white/10  backdrop-filter backdrop-blur-sm rounded-lg md:mt-10 sm:mt-40">
+      <div className="flex flex-wrap flex-col items-center justify-center bg-white/10  backdrop-filter backdrop-blur-sm rounded-lg mx-4 mt-10 md:mt-10 sm:mt-40">
         <HackathonStats />
       </div>
-      <div className="bg-white/10 mt-5 py-40">
-        
+      <div className="bg-white/10 mt-5 py-40 mx-4 rounded-lg">
         <WinnerMale />
         <WinnerFemale />
       </div>
 
-      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20">
+      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg divide-y-8 divide-black">
         <PlatinumSponsors />
+<<<<<<< HEAD
         {/* <hr className="styled-hr-sponsors" /> */}
+=======
+>>>>>>> 2d656a1f59c29a33bd01f2a559bd36e871797d79
         <GoldSponsors />
       </div>
-      <Footer />
+      <div className="mx-4 mt-5 pb-5 rounded-xl">
+        <Footer />
+      </div>
     </>
   );
 };
