@@ -30,7 +30,10 @@ const Hackathon_1 = () => {
   return (
     <>
       <Background />
-      <Header />
+      <div className="inline-flex items-center  xl:w-full">
+        <hr className="hidden xl:flex w-64 h-1 my-10 bg-white border-0 rounded " />
+      <Header className="my-10 h-1"/>
+      </div>
 
       <div className="flex flex-col items-center justify-center min-h-screen  rounded-lg space-y-10 ">
         <p
@@ -67,7 +70,7 @@ const Hackathon_1 = () => {
 
       <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20">
         <PlatinumSponsors />
-        <hr className="styled-hr-sponsors" />
+        {/* <hr className="styled-hr-sponsors" /> */}
         <GoldSponsors />
       </div>
       <Footer />

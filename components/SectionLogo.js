@@ -8,7 +8,7 @@ const SectionLogo = () => {
         Inspire. Educate. Empower
       </h1>
       <h2
-        className="text-5xl font-bold dark:bg-black font-RussoOne tracking-wider -mb-1 
+        className="text-5xl font-bold font-RussoOne tracking-wider -mb-1 
             bg-white bg-clip-text text-transparent xl:text-9xl lg:text-9xl md:text-8xl sm:text-7xl"
       >
         HACKFED

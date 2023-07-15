@@ -1,9 +1,9 @@
 const PlatinumSponsors = () => {
   return (
-    <div className="py-14 ">
+    <div className="py-14 mx-12 bg-white">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
-          <h3 className="text-white/80 text-3xl font-semibold sm:text-4xl">
+          <h3 className="text-[#E5E4E2] text-3xl font-semibold sm:text-4xl">
             Platinum Sponsors
           </h3>
           <p className="text-white/80 mt-3">
