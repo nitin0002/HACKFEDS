@@ -29,7 +29,7 @@ const Hackathon_1 = () => {
   }, []);
 
   return (
-    <>
+    <> 
       <Background />
       <div className="inline-flex items-center  xl:w-full">
         <hr className="hidden xl:flex w-64 h-1 my-10 bg-white border-0 rounded " />
@@ -69,14 +69,21 @@ const Hackathon_1 = () => {
       <div className="flex flex-wrap flex-col items-center justify-center bg-white/10  backdrop-filter backdrop-blur-sm rounded-lg mx-4 mt-10 md:mt-10 sm:mt-40">
         <HackathonStats />
       </div>
-      <div className="bg-white/10 mt-5 py-40 mx-4 rounded-lg">
+      <div className="bg-white/10 mt-5 py-40 mx-4 rounded-lg backdrop-filter backdrop-blur-s">
         <WinnerMale />
         <WinnerFemale />
       </div>
 
-      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg divide-y-8 divide-black">
-        <PlatinumSponsors />
-        <GoldSponsors />
+      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg ">
+        
+        <div className="bg-black/20 mx-5 sm:mx-32 rounded-xl backdrop-filter backdrop-blur-sm my-10 ">
+          <PlatinumSponsors />
+        </div>
+        <hr className="styled-hr-sponsors" />
+
+        <div className="bg-black/20 mx-5 sm:mx-96  rounded-xl backdrop-filter backdrop-blur-sm">
+          <GoldSponsors />
+        </div>
       </div>
       <div className="mx-4 mt-5 pb-5 rounded-xl">
         <Footer />
