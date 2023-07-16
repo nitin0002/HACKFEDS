@@ -81,7 +81,7 @@ const Hackathon_1 = () => {
         </div>
         <hr className="styled-hr-sponsors" />
 
-        <div className="bg-black/20 mx-5 sm:mx-96  rounded-xl backdrop-filter backdrop-blur-sm">
+        <div className="bg-black/20 mx-5 sm:mx-40 md:mx-50 lg:mx-60 xl:mx-70  rounded-xl backdrop-filter backdrop-blur-sm">
           <GoldSponsors />
         </div>
       </div>
