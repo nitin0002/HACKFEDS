@@ -1,6 +1,6 @@
 const GoldSponsors = () => {
   return (
-    <div className="py-14	align-content: center mx-28">
+    <div className="py-14">
       <div className="max-w-screen-xl  mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h3 className="text-[#FFD700] text-4xl font-semibold sm:text-4xl">
