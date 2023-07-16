@@ -31,10 +31,10 @@ const Hackathon_1 = () => {
   return (
     <> 
       <Background />
-      <div className="inline-flex items-center  xl:w-full">
+      {/* <div className="inline-flex items-center  xl:w-full">
         <hr className="hidden xl:flex w-64 h-1 my-10 bg-white border-0 rounded " />
-      <Header className="my-10 h-1"/>
-      </div>
+      </div> */}
+      <Header />
 
       <div className="flex flex-col items-center justify-center min-h-screen  rounded-lg space-y-10 ">
         <p
