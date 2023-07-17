@@ -31,6 +31,9 @@ const Hackathon_1 = () => {
   return (
     <> 
       <Background />
+      {/* <div className="inline-flex items-center  xl:w-full">
+        <hr className="hidden xl:flex w-64 h-1 my-10 bg-white border-0 rounded " />
+      </div> */}
       <Header />
 
       <div className="flex flex-col items-center justify-center min-h-screen  rounded-lg space-y-10 ">
@@ -78,7 +81,7 @@ const Hackathon_1 = () => {
         </div>
         <hr className="styled-hr-sponsors" />
 
-        <div className="bg-black/20 mx-5 sm:mx-96  rounded-xl backdrop-filter backdrop-blur-sm">
+        <div className="bg-black/20 mx-5 sm:mx-40 md:mx-50 lg:mx-58 xl:mx-70  rounded-xl backdrop-filter backdrop-blur-sm">
           <GoldSponsors />
         </div>
       </div>

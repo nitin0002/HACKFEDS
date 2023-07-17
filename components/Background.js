@@ -2,7 +2,7 @@ import React from "react";
 
 function Background() {
   return (
-    <div className='-z-10 fixed top-0 left-0 w-full h-full overflow-hidden'
+    <div className='-z-10 fixed top-0 left-0 w-full h-full overflow-hidden dark:bg-black'
       
     >
       <video
@@ -10,7 +10,7 @@ function Background() {
         autoPlay
         loop
         muted
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover dark:bg-black"
       />
     </div>
   );
