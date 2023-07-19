@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import WinnerMale from "./WinnerMale";
 import WinnerFemale from "./WinnerFemale";
 import Link from "next/link";
+import H_Footer from "./H_Footer";
 
 const Hackathon_1 = () => {
   const [shadowOffset, setShadowOffset] = useState(0);
@@ -29,7 +30,7 @@ const Hackathon_1 = () => {
   }, []);
 
   return (
-    <> 
+    <>
       <Background />
       {/* <div className="inline-flex items-center  xl:w-full">
         <hr className="hidden xl:flex w-64 h-1 my-10 bg-white border-0 rounded " />
@@ -38,7 +39,7 @@ const Hackathon_1 = () => {
 
       <div className="flex flex-col items-center justify-center min-h-screen  rounded-lg space-y-10 ">
         <p
-          className="text-4xl font-bold  font-RussoOne tracking-wider mb-10 text-white/75 pt-40 sm:pt-40 mt-5 lg:pt-60  xl:text-8xl lg:text-6xl md:text-5xl sm:text-4xl"
+          className="text-3.5xl font-bold  font-RussoOne tracking-wider mb-10 text-white/75 pt-40 sm:pt-40 mt-5 lg:pt-60  xl:text-8xl lg:text-6xl md:text-5xl sm:text-4xl"
           style={{
             textShadow: `${shadowOffset}px -1px 0px rgba(109, 95, 187, 1)`,
           }}
@@ -66,27 +67,28 @@ const Hackathon_1 = () => {
           <LottieAnimation />
         </div>
       </div>
-      <div className="flex flex-wrap flex-col items-center justify-center bg-white/10  backdrop-filter backdrop-blur-sm rounded-lg mx-4 mt-10 md:mt-10 sm:mt-40">
+      <div className="flex flex-wrap flex-col items-center justify-center bg-gradient-to-b from-black/20 via-blue-added  to-blue-added  backdrop-filter backdrop-blur-sm rounded-lg mx-1 mt-10 md:pt-32 sm:mt-40">
         <HackathonStats />
       </div>
-      <div className="bg-white/10 mt-5 py-40 mx-4 rounded-lg backdrop-filter backdrop-blur-s">
+      <div className="bg-blue-added  py-40 mx-1 rounded-lg backdrop-filter backdrop-blur-s">
         <WinnerMale />
+        <hr className="styled-hr-sponsors" />
         <WinnerFemale />
       </div>
 
-      <div className="bg-white/20 mt-4 backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-4 rounded-lg ">
-        
-        <div className="bg-black/20 mx-5 sm:mx-32 rounded-xl backdrop-filter backdrop-blur-sm my-10 ">
+      <div className="bg-blue-added  backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-1 rounded-t-lg ">
+        <div className="bg-white/20 mx-1 sm:mx-32 rounded-xl backdrop-filter backdrop-blur-sm my-10 ">
           <PlatinumSponsors />
         </div>
         <hr className="styled-hr-sponsors" />
 
-        <div className="bg-black/20 mx-5 sm:mx-40 md:mx-50 lg:mx-58 xl:mx-70  rounded-xl backdrop-filter backdrop-blur-sm">
+        <div className="bg-white/20 mx-5 sm:mx-40 md:mx-50 lg:mx-58 xl:mx-70  rounded-xl backdrop-filter backdrop-blur-sm">
           <GoldSponsors />
         </div>
       </div>
-      <div className="mx-4 mt-5 pb-5 rounded-xl">
-        <Footer />
+      <hr className="styled-hr-sponsors" />
+      <div className="mx-1">
+        <H_Footer />
       </div>
     </>
   );

@@ -37,7 +37,13 @@ module.exports = {
       10: '10px',
       15: '15px',
       20: '20px',
-    }
+    },
+    fontSize: {
+      '3.5xl': '2.0rem',
+    },
+    colors: {
+      'blue-added': '#0C162C',
+    },
   },
 },
   plugins: [],
