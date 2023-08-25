@@ -1,6 +1,10 @@
 function H_Footer() {
     return (
-      <footer className=" text-center text-white bg-gradient-to-b from-blue-added to-white/30  backdrop-filter backdrop-blur-3xl ">
+      <footer className=" text-center text-white bg-gradient-to-b from-blue-added via-blue-added to-white
+      
+      
+      
+      /0  backdrop-filter backdrop-blur-3xl ">
         <div className=" pt-9">
           <div className="mb-9 flex justify-center mt-32">
             <a href="#!" className="mr-9 text-neutral-800 dark:text-neutral-200">

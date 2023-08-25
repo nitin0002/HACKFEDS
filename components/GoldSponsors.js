@@ -2,14 +2,14 @@ import React from "react";
 import goldSponsorsStyles from "./goldSponsorsStyles";
 const GoldSponsors = () => {
   return (
-    <div className="py-14" >
+    <div className="py-14 pb-40 mb-20" >
       <div className="max-w-screen-xl  mx-auto px-4 md:px-8">
         <div  style={goldSponsorsStyles.combined}></div>
-        <div className="max-w-xl mx-auto text-center">
-          <h3 className="text-black/70 text-4xl font-semibold sm:text-5xl mb-8">
+        <div className="max-w-2xl mx-auto text-center">
+          <h3 className="text-black/70 text-4xl font-semibold sm:text-7xl mb-8">
             Gold Sponsors 
           </h3>
-          <p className="text-white/80 mt-3" >
+          <p className="text-white/80 mt-3 text-xl" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum
             efficitur tortor in laoreet.

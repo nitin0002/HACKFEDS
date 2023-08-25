@@ -70,23 +70,21 @@ const Hackathon_1 = () => {
       <div className="flex flex-wrap flex-col items-center justify-center bg-gradient-to-b from-black/20 via-blue-added  to-blue-added  backdrop-filter backdrop-blur-sm rounded-lg mx-1 mt-10 md:pt-32 sm:mt-40">
         <HackathonStats />
       </div>
-      <div className="bg-blue-added  py-40 mx-1 rounded-lg backdrop-filter backdrop-blur-s">
+      <div className="bg-blue-added pb-20 py-40 mx-1 rounded-lg backdrop-filter backdrop-blur-s">
         <WinnerMale />
-        <hr className="styled-hr-sponsors" />
+      </div>
+      <div className=" pb-40 mx-1 bg-gradient-to-b from-blue-added via-blue-added to-blue-added">
         <WinnerFemale />
       </div>
 
-      <div className="bg-blue-added  backdrop-filter backdrop-blur-sm py-20 space-y-20 mx-1 rounded-t-lg ">
+      <div className="bg-blue-added  backdrop-filter backdrop-blur-sm py-20 space-y-40 mx-1 rounded-t-lg">
         <div className="mx-1 sm:mx-32 rounded-xl backdrop-filter backdrop-blur-sm my-10 ">
           <PlatinumSponsors />
         </div>
-        <hr className="styled-hr-sponsors" />
-
         <div className=" mx-5 sm:mx-40 md:mx-50 lg:mx-58 xl:mx-70  rounded-xl backdrop-filter backdrop-blur-sm">
           <GoldSponsors />
         </div>
       </div>
-      <hr className="styled-hr-sponsors" />
       <div className="mx-1">
         <H_Footer />
       </div>

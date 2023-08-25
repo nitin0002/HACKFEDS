@@ -23,14 +23,14 @@ const HackathonStats = () => {
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h1 className="text-white/80 text-5xl font-semibold sm:text-5xl">
+                    <h1 className="text-white/80 text-5xl font-semibold sm:text-6xl">
                          HACKATHON NUMBERS
                     </h1>
-                    <p className="mt-3">
+                    <p className="mt-3 text-xl">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.
                     </p>
                 </div>
-                <div className="mt-12 ">
+                <div className="mt-12 text-3xl">
                     <ul className="flex flex-col items-center justify-center gap-y-10 sm:flex-row sm:flex-wrap lg:divide-x ">
                         {
                             stats.map((item, idx) => (

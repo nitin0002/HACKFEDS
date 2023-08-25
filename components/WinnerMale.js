@@ -3,7 +3,8 @@ import { Medal } from "./LottieAnim";
 const WinnerMale =(props) => {
     return (
        
-<div className="flex-wrap items-center justify-center gap-8 text-center sm:flex mx-5 mb-24 ">
+<div className="flex-wrap items-center justify-center gap-8 text-center sm:flex mx-5 mt-24 ">
+    
     <div className="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
         <div className="flex-shrink-0">
             <div className="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
